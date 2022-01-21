@@ -11,10 +11,56 @@
 }
 
 .project1 {
-    width: 18rem;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    position: absolute;
+    lentgh: 25%;
+    width: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  .project2 {
+    position: absolute;
+    lentgh: 25%;
+    width: 25%;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  .project3 {
+    position: absolute;
+    lentgh: 25%;
+    width: 25%;
+    top: 79%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(86, 155, 86);
+  }
+
+  .project4 {
+    position: absolute;
+    lentgh: 25%;
+    width: 25%;
+    top: 79%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  .portfolio-container {
+    position: relative;
   }
 
   .home-container {
@@ -24,10 +70,40 @@
   .about-me {
     position: absolute;
     width: 50%;
-    top: 50%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
     padding: 30px;
+    border-radius: 10px;
+  }
+
+  .pokeball{
+    position: absolute;
+    lentgh: 25%;
+    width: 25%;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+  }
+
+  .github {
+    position: absolute;
+    lentgh: 25%;
+    width: 25%;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+  }
+ 
+  .me{
+    position: absolute;
+    lentgh: 25%;
+    width: 25%;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 10px;
   }
